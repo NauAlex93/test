@@ -12,7 +12,7 @@ public class TestClass {
         TestingArray sortedArray = new TestingArray();
 
         System.out.println(arrayNums);
-        System.out.println(sortedArray.getFirstTenMinNumbers(arrayNums));
+        System.out.println(sortedArray.getTenMinNumbers(arrayNums));
 
     }
 

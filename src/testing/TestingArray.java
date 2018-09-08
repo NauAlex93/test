@@ -4,7 +4,12 @@ import java.util.ArrayList;
 
 public class TestingArray {
 
-    public ArrayList getFirstTenMinNumbers(ArrayList<Integer> arrayNums) {
+    /**
+     *
+     * @param arrayNums is an initial array for selecting 10 minimal elements from it
+     * @return resulting array of 10 elements
+     */
+    public ArrayList getTenMinNumbers(ArrayList<Integer> arrayNums) {
         ArrayList resultList = new ArrayList();
         int minElement;
 
