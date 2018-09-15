@@ -14,6 +14,7 @@ public class TestClass {
         System.out.println(arrayNums);
         System.out.println(sortedArray.getTenMinNumbers(arrayNums));
         System.out.println(sortedArray.findMinNumAndSetItFirstElem(arrayNums));
+        System.out.println(sortedArray.findMaxElemAndSortArray(arrayNums));
 
     }
 
